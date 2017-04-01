@@ -1,12 +1,30 @@
 # notification.js
-一个小巧的提示框React组件，es6语法，不依赖第三方库
+notification is a small component for React
 
 ### Usage
+you should import it to you project
+use require or import
 ```
 var Notification = require('notification');
-
-Notification.success(<span>center</span>,10,true);
-Notification.error(<span>center</span>,10,false,{top:'300px'});
-Notification.alert(<span>center</span>,10,false,{top:'300px'});
-Notification.message(<span>center</span>,10,false,{top:'300px'});
 ```
+
+### Example
+```
+Notification.success(<span>success</span>,10,true)
+Notification.error(<span>error</span>,10,false,{top:'100px});
+Notification.alert(<span>alert</span>,10,false,{top:'100px});
+Notification.message('be careful!',10,true);
+```
+
+### Api
+```
+Notification.api(content,duration,center,style)
+```
+content : use JSX or string
+duration : The time duration is measured in seconds
+center : pass in "true" , let the notification be centered
+style : css style
+
+
+### Parameter
+Notification.api(content,duration,center,style)
