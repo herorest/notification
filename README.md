@@ -20,10 +20,10 @@ Notification.message('be careful!',10,true);
 ```
 Notification.api(content,duration,center,style)
 ```
->content : use JSX or string
->duration : The time duration is measured in seconds
->center : pass in "true" , let the notification be centered
->style : css style
+    >content : use JSX or string
+    >duration : The time duration is measured in seconds
+    >center : pass in "true" , let the notification be centered
+    >style : css style
 
 
 
