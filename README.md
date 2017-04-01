@@ -1,9 +1,9 @@
 # notification.js
-notification is a small component for React
+notification is a small component for React, there is only one notification in the same time! if a new notification fadeIn, the old one will be replaced 
 
 ### Usage
 you should import it to you project
-use require or import
+
 ```
 var Notification = require('notification');
 ```
@@ -26,5 +26,4 @@ center : pass in "true" , let the notification be centered
 style : css style
 
 
-### Parameter
-Notification.api(content,duration,center,style)
+
